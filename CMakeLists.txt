@@ -9,6 +9,7 @@ target_include_directories(test-lib
         ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
+set(CMAKE_INSTALL_PREFIX ${CMAKE_BINARY_DIR}/install)
 install(TARGETS test-lib DESTINATION lib)
 install(FILES test-lib.h DESTINATION include)
 
