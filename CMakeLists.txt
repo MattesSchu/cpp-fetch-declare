@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 
 project(cpp-fetch-declare)
 
-add_library(test-lib STATIC main.cpp)
+add_library(test-lib STATIC test-lib.cpp)
 
 target_include_directories(test-lib 
     PUBLIC 
